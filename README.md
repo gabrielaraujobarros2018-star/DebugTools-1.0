@@ -9,6 +9,7 @@ Lightweight .NET debugging utilities. Cross-platform (Windows/Linux/macOS/ARM). 
 - Shared: Console + debug.log output
 
 ## Directory Structure
+```
 DebugTools1.0/
 ├── DebugTools.sln
 ├── src/
@@ -22,11 +23,14 @@ DebugTools1.0/
 │       └── Program.cs (26 LOC)
 ├── README.md
 └── build.sh
+```
 
 ## Setup
+```
 cd DebugTools1.0
 dotnet restore
 dotnet build
+```
 
 ## Usage
 
@@ -43,6 +47,7 @@ dotnet src/MemProfiler/bin/Debug/net8.0/MemProfiler.dll
 (Shows MB usage every 2s)
 
 ## .csproj Template
+```
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -52,6 +57,7 @@ dotnet src/MemProfiler/bin/Debug/net8.0/MemProfiler.dll
     <ProjectReference Include="..CommonCommon.csproj" />
   </ItemGroup>
 </Project>
+```
 
 ## Notes
 - ~100KB per tool binary
