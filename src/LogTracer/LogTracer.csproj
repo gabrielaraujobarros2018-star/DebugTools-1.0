@@ -1,4 +1,4 @@
-<!-- src/LogTracer/LogTracer.csproj (12 LOC) -->
+<!-- src/LogTracer/LogTracer.csproj (15 LOC) -->
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>

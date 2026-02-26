@@ -1,4 +1,4 @@
-<!-- Common/Common.csproj (8 LOC) -->
+<!-- Common/Common.csproj (11 LOC) -->
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>

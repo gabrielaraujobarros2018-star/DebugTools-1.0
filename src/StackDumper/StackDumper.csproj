@@ -1,4 +1,4 @@
-<!-- src/StackDumper/StackDumper.csproj (12 LOC) -->
+<!-- src/StackDumper/StackDumper.csproj (15 LOC) -->
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
